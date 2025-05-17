@@ -22,7 +22,7 @@ class _KrishnaChatPageState extends State<KrishnaChatPage>
   final ScrollController _scrollController = ScrollController();
 
   bool _isTyping = false;
-  bool _isMuted = false; // <-- Add this line
+  bool _isMuted = false;
   late final String _uid;
   late final AudioPlayer _audioPlayer;
 
@@ -213,7 +213,7 @@ class _KrishnaChatPageState extends State<KrishnaChatPage>
           ),
           // Translucent overlay
           Container(
-            color: Color(0x80000000), // #00000080, 50% opacity black
+            color: Color(0x80000000),
           ),
           // Chat content
           SafeArea(
