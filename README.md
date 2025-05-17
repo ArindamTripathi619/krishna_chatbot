@@ -78,34 +78,16 @@ krishna_chatbot/
 
 ---
 
-## 🔧 Installation
+## 📥 Download & Install
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ArindamTripathi619/krishna_chatbot
-   cd krishna_chatbot
-   ```
+You can try Krishna Chatbot on your Android device by downloading the latest APK from the [Releases](https://github.com/ArindamTripathi619/krishna_chatbot/releases) section.
 
-2. **Install dependencies:**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Set up your environment variables:**
-   - Create a `.env` file in the root directory:
-     ```
-     API_KEY=your_openrouter_api_key_here
-     ```
-   - (Optional) Add other keys as needed.
-
-4. **Add your Firebase configuration:**
-   - Place your `google-services.json` (Android) in `android/app/`.
-   - Place your `GoogleService-Info.plist` (iOS) in `ios/Runner/`.
-
-5. **Run the app:**
-   ```bash
-   flutter run
-   ```
+**How to install:**
+1. Go to the [Releases](https://github.com/ArindamTripathi619/krishna_chatbot/releases) page.
+2. Download the latest `.apk` file (e.g., `krishna_chatbot-v1.0.apk`).
+3. Transfer the APK to your Android device if needed.
+4. On your device, enable **Install from unknown sources** in Settings > Security.
+5. Tap the APK file to install and enjoy the app!
 
 ---
 
