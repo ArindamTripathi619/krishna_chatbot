@@ -45,7 +45,6 @@ final ThemeData krishnaDarkTheme = ThemeData(
   colorScheme: ColorScheme.dark(
     primary: Colors.tealAccent.shade400,
     secondary: Colors.purpleAccent.shade100,
-    background: const Color(0xFF0B0C10),
     surface: const Color(0xFF181C22),
   ),
 );

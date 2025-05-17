@@ -13,6 +13,8 @@
 .swiftpm/
 migrate_working_dir/
 %USERPROFILE%/
+/android/key.properties
+android/app/my-release-key.jks
 
 # IntelliJ related
 *.iml
