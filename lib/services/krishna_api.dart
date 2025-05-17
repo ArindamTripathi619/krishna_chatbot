@@ -39,14 +39,12 @@ class KrishnaApi {
       );
 
       if (response.statusCode == 200) {
-        final data = jsonDecode(response.body);
+        final data = jsonDecode(utf8.decode(response.bodyBytes));
         return data['choices'][0]['message']['content'].trim();
       } else {
-        print('Error: ${response.statusCode}, Body: ${response.body}');
         return "I am sorry, my dear friend. Something went wrong...";
       }
     } catch (e) {
-      print("Exception: $e");
       return "Oops... Krishna faced a little hiccup. Try again in a moment.";
     }
   }

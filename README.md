@@ -13,11 +13,17 @@ A conversational chatbot application built with Flutter, designed to provide an 
 ---
 
 ## 🖼️ Screenshots
+### Welcome Screen
+![Welcome Screen](screenshots/welcome_screen.png)
+
+### Register Screen
+![Register Screen](screenshots/register_screen.png)
+
+### Login Screen
+![Login Screen](screenshots/login_screen.png)
+
 ### Chat Interface
 ![Chat Interface](screenshots/chat_interface.png)
-
-### Error Handling
-![Error Handling](screenshots/error_handling.png)
 
 ---
 
@@ -32,7 +38,7 @@ A conversational chatbot application built with Flutter, designed to provide an 
 
 ## 📂 Project Structure
 ```plaintext
-Krishna_Chatbot/
+krishna_chatbot/
 ├── lib/            # Main Flutter application code
 │   ├── main.dart   # Entry point of the application
 │   ├── screens/    # UI screens
@@ -50,8 +56,8 @@ Krishna_Chatbot/
 
 ## 🔧 Installation
 ```bash
-git clone https://github.com/your-username/Krishna_Chatbot.git
-cd Krishna_Chatbot
+git clone https://github.com/ArindamTripathi619/krishna_chatbot
+cd krishna_chatbot
 flutter pub get
 flutter run
 ```

@@ -3,7 +3,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:label="krishna_chatbot"
+        android:label="Chat With Krishna"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

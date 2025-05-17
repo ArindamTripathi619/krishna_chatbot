@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "845273803268",
+    "project_id": "krishnachatbot-11e35",
+    "storage_bucket": "krishnachatbot-11e35.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845273803268:android:ef7cb441a4376a6797e351",
+        "android_client_info": {
+          "package_name": "com.example.krishna_chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845273803268-9em2q33jcc5qao7c007ceq96a3pi4gh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishna_chatbot",
+            "certificate_hash": "a5107207bcbd57de71d49d74045962ab7f603d42"
+          }
+        },
+        {
+          "client_id": "845273803268-qr2c787quj0jqbnt5lplchclo5hc3dhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishna_chatbot",
+            "certificate_hash": "118e17af8798ad5f0700a35722778b8ccba88385"
+          }
+        },
+        {
+          "client_id": "845273803268-74hk4d4sa1cs0fcmodnpk9t8i5q2ubfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7ZpjKGSE7B6tfwvPJX-IzcJR5TroY-BM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845273803268-74hk4d4sa1cs0fcmodnpk9t8i5q2ubfo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "845273803268-63t1v8lqv9opkhssqmq7tvvuosb61g6p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.krishnaChatbot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
