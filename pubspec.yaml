@@ -34,7 +34,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/app_icon.png"
+  image_path: "assets/app_icon.webp"
 
 flutter:
 
@@ -42,12 +42,12 @@ flutter:
 
   assets:
     - .env
-    - assets/google_icon.png
-    - assets/krishna_avatar.png
-    - assets/user_avatar.png
-    - assets/krishna_bg.png
-    - assets/feather.png
-    - assets/flute.png
-    - assets/app_icon.png
+    - assets/google_icon.webp
+    - assets/krishna_avatar.webp
+    - assets/user_avatar.webp
+    - assets/krishna_bg.webp
+    - assets/feather.webp
+    - assets/flute.webp
+    - assets/app_icon.webp
     - assets/music/soothing.mp3
     # background_music: assets/music/soothing.mp3 is taken from "Enchanting Flute" by Rakesh Chaurasia

@@ -23,19 +23,19 @@ A conversational chatbot application built with Flutter, designed to provide an 
 ## 🖼️ Screenshots
 
 ### Welcome Screen
-![Welcome Screen](screenshots/welcome_screen.png)
+![Welcome Screen](screenshots/welcome_screen.webp)
 
 ### Register Screen
-![Register Screen](screenshots/register_screen.png)
+![Register Screen](screenshots/register_screen.webp)
 
 ### Login Screen
-![Login Screen](screenshots/login_screen.png)
+![Login Screen](screenshots/login_screen.webp)
 
 ### Chat Interface
-![Chat Interface](screenshots/chat_interface.png)
+![Chat Interface](screenshots/chat_screen.webp)
 
 ### Offline Alert
-![Offline Alert Screen](screenshots/offline_alert_screen.png)
+![Offline Alert Screen](screenshots/offline_alert_screen.webp)
 
 ---
 
@@ -56,18 +56,33 @@ A conversational chatbot application built with Flutter, designed to provide an 
 
 ```plaintext
 krishna_chatbot/
-├── lib/                  # Main Flutter application code
-│   ├── main.dart         # Entry point of the application
-│   ├── screens/          # UI screens (chat, welcome, login, register, etc.)
-│   ├── models/           # Data models (e.g., Message)
-│   ├── services/         # API and backend services (e.g., KrishnaApi)
-│   └── widgets/          # Reusable UI components (message bubbles, indicators)
-├── assets/               # Static assets (images, icons, music, etc.)
-│   ├── krishna_bg.png
-│   ├── krishna_avatar.png
-│   ├── user_avatar.png
-│   ├── flute.png
-│   └── music/soothing.mp3
+├── lib/                        # Main Flutter application code
+│   ├── firebase_options.dart   # Firebase configuration (auto-generated)
+│   ├── main.dart               # Entry point of the application
+│   ├── theme.dart              # App theme definitions
+│   ├── models/                 # Data models
+│   │   └── message.dart
+│   ├── screens/                # UI screens
+│   │   ├── chat_screen.dart
+│   │   ├── login_screen.dart
+│   │   ├── register_screen.dart
+│   │   └── welcome_screen.dart
+│   ├── services/               # API and backend services
+│   │   └── krishna_api.dart
+│   └── widgets/                # Reusable UI components
+│       ├── chat_input.dart
+│       ├── message_bubble.dart
+│       └── typing_indicator.dart
+├── assets/                     # Static assets (images, icons, music, etc.)
+│   ├── app_icon.webp
+│   ├── feather.webp
+│   ├── flute.webp
+│   ├── google_icon.webp
+│   ├── krishna_avatar.webp
+│   ├── krishna_bg.webp
+│   ├── user_avatar.webp
+│   └── music/
+│       └── soothing.mp3
 ├── screenshots/          # App screenshots for documentation
 ├── .env                  # Environment variables (not committed)
 │   └── API_KEY=your_api_key_here
@@ -97,7 +112,7 @@ You can try Krishna Chatbot on your Android device by downloading the latest APK
   Edit `android/app/src/main/AndroidManifest.xml` (`android:label`) and `ios/Runner/Info.plist` (`CFBundleDisplayName`).
 
 - **Change App Icon:**  
-  Use [`flutter_launcher_icons`](https://pub.dev/packages/flutter_launcher_icons) and update `assets/app_icon.png`.
+  Use [`flutter_launcher_icons`](https://pub.dev/packages/flutter_launcher_icons) and update `assets/app_icon.webp`.
 
 - **Change Background Music:**  
   Replace `assets/music/soothing.mp3` with your preferred track and update `pubspec.yaml` if needed.
