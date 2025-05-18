@@ -187,7 +187,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                     const SizedBox(height: 12),
                     ElevatedButton.icon(
-                      icon: Image.asset('assets/google_icon.png', height: 24),
+                      icon: Image.asset('assets/google_icon.webp', height: 24),
                       label: const Text("Log in with Google"),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,

@@ -40,7 +40,7 @@ class WelcomeScreen extends StatelessWidget {
             ),
             title: Row(
               children: [
-                Image.asset('assets/flute.png', height: 36),
+                Image.asset('assets/flute.webp', height: 36),
                 const SizedBox(width: 14),
                 Text(
                   "O Wanderer!",
@@ -291,7 +291,7 @@ class _AnimatedGlowFluteState extends State<_AnimatedGlowFlute>
                 color: Colors.transparent,
               ),
               child: ClipOval(
-                child: Image.asset('assets/flute.png', fit: BoxFit.contain),
+                child: Image.asset('assets/flute.webp', fit: BoxFit.contain),
               ),
             ),
           ],

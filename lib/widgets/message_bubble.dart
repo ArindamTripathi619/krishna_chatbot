@@ -77,7 +77,7 @@ class _AnimatedMessageBubbleState extends State<AnimatedMessageBubble>
               CircleAvatar(
                 radius: 20,
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage('assets/krishna_avatar.png'),
+                backgroundImage: AssetImage('assets/krishna_avatar.webp'),
               ),
             if (!isUser) const SizedBox(width: 8),
             // User's message: show bubble, then pfp
@@ -129,7 +129,7 @@ class _AnimatedMessageBubbleState extends State<AnimatedMessageBubble>
               CircleAvatar(
                 radius: 20,
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage('assets/user_avatar.png'),
+                backgroundImage: AssetImage('assets/user_avatar.webp'),
               ),
             ],
             // Krishna's message: show bubble after avatar

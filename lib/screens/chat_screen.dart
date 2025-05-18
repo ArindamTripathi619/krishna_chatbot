@@ -202,7 +202,7 @@ class _KrishnaChatPageState extends State<KrishnaChatPage>
                 end: Alignment.bottomRight,
               ),
               image: DecorationImage(
-                image: AssetImage('assets/krishna_bg.png'),
+                image: AssetImage('assets/krishna_bg.webp'),
                 fit: BoxFit.cover,
                 colorFilter: ColorFilter.mode(
                   Colors.black.withOpacity(0.55),
@@ -268,7 +268,7 @@ class _KrishnaChatPageState extends State<KrishnaChatPage>
                           child: CircleAvatar(
                             backgroundColor: Colors.white,
                             child: Image.asset(
-                              'assets/krishna_avatar.png',
+                              'assets/krishna_avatar.webp',
                               height: 32,
                             ),
                           ),
@@ -418,7 +418,7 @@ class _ChatInputState extends State<ChatInput>
                 child: CircleAvatar(
                   backgroundColor: Colors.teal.shade700,
                   radius: 24,
-                  child: Image.asset('assets/feather.png', height: 28),
+                  child: Image.asset('assets/feather.webp', height: 28),
                 ),
               )
               : GestureDetector(
