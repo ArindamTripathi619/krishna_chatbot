@@ -1,11 +1,12 @@
-# Krishna Chatbot – v1.1.0 Major Release Update ✨🤖
+# Krishna Chatbot – v1.1.1 Font Refresh & Improvements ✨🖋️
 
-## What's New in v1.1.0 🚀
+## What's New in v1.1.1 🚀
 
-- **Critical Google Sign-In Fix:** 🛡️🔑 Google authentication now works seamlessly in the release build. Users can now log in and register using their Google accounts without any issues.
-- **Firebase Release Keystore Integration:** 🔒 The app is now properly configured with the release keystore SHA-1 and SHA-256 in Firebase, ensuring secure and reliable authentication for all users.
-- **Performance Optimizations:** 🖼️🌐 Continues to use WebP images for a smaller, faster app and improved user experience.
-- **Essential Update:** This release resolves a major issue that previously prevented users from accessing the chat feature in the release version.
+- **Font Refresh for Better Readability:**  
+  - Krishna's English replies now use the elegant **Merienda** font for improved clarity and style.
+  - Krishna's Sanskrit/Devanagari replies continue to use **Yatra One** for script compatibility.
+  - User messages now use the playful **Comic Neue** font (changed from Poppins) for a friendlier chat experience.
+- **All previous fixes and optimizations included.**
 
-Thank you for your patience and support! 🙏  
-If you encounter any issues or have suggestions, please let us know. Enjoy chatting with Krishna!
+Thank you for your feedback and support! 🙏  
+If you encounter any issues or have suggestions, please let us know. Enjoy the new look and keep chatting with Krishna!
