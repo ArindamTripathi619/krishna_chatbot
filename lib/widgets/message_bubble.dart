@@ -114,10 +114,10 @@ class _AnimatedMessageBubbleState extends State<AnimatedMessageBubble>
                     ),
                     child: Text(
                       widget.message.text,
-                      style: GoogleFonts.poppins(
+                      style: GoogleFonts.comicNeue(
                         color: userTextColor,
-                        fontSize: 17,
-                        fontWeight: FontWeight.w500,
+                        fontSize: 21,
+                        fontWeight: FontWeight.w600,
                         height: 1.4,
                         letterSpacing: 0.1,
                       ),
@@ -172,10 +172,10 @@ class _AnimatedMessageBubbleState extends State<AnimatedMessageBubble>
                                 height: 1.4,
                                 letterSpacing: 0.1,
                               )
-                              : GoogleFonts.greatVibes(
+                              : GoogleFonts.merienda(
                                 color: krishnaTextColor,
-                                fontSize: 22,
-                                fontWeight: FontWeight.w400,
+                                fontSize: 19,
+                                fontWeight: FontWeight.w500,
                                 height: 1.4,
                                 letterSpacing: 0.1,
                               ),
