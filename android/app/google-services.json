@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "845273803268-csd7osnlcjhld9bcboc757jr7j798jes.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishna_chatbot",
+            "certificate_hash": "b9238455be76394c4f5c919a8a964a967248de91"
+          }
+        },
+        {
           "client_id": "845273803268-qr2c787quj0jqbnt5lplchclo5hc3dhd.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
